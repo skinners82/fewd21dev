@@ -1,0 +1,20 @@
+body {
+	background: #FFFFEE;
+	border: 1px solid black;
+
+}
+img {
+	border-style: solid;
+	border-color: black;
+	border-width: :1px;
+}
+h2 span {
+	color:#887;
+}
+.auxheader {
+	color:#887;
+/* no advantage of using ID tags over class. USE CLASS*/
+}
+a{
+	color:#900;
+}
