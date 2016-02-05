@@ -19,6 +19,11 @@ body {
  	margin-top: 0;
  }
 
+ .commonstyles h1 {
+ 	text-transform: uppercase;
+ 	
+ }
+
  .commonstyles h2 {
  	text-align: left;
  	font-size: 25;
@@ -45,7 +50,7 @@ body {
 
  .toclevel-2 a {
   
-    color: gray;
+    color: #3344aa;
     font-size: 15;
     
  }
