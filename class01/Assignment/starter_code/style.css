@@ -1,0 +1,70 @@
+body {
+
+	font-family: Georgia;
+	font-size: 15;
+	color:#05080C;
+	line-height: 1.5;
+    margin: 30px;
+    border-bottom: 5px solid #222222;
+    border-top: 5px solid #222222;
+    padding: 50px;
+    background: #F6F6F6;
+}
+
+.commonstyles h3 {
+ 	text-transform: uppercase;
+ 	font-size: 15;
+ 	text-align: left;
+ 	color: #030609;
+ 	margin-top: 0;
+ }
+
+ .commonstyles h2 {
+ 	text-align: left;
+ 	font-size: 25;
+ 	color: #030609;
+ 	margin-top: 0;
+ }
+
+ 
+
+.toc {
+  color: #222222;
+  text-align: left;
+  max-width: 300px;
+  float:right;
+  margin: 0 0 20px 20px;
+}
+
+
+.toclevel-1 a {
+  
+    font-size: 18;
+    
+ }
+
+ .toclevel-2 a {
+  
+    color: gray;
+    font-size: 15;
+    
+ }
+
+ .datatable td {
+
+
+ 	padding: 8px 14px;
+ 
+ }
+ .commonstyles img {
+  /*float: right;*/
+  margin-left: auto;
+  margin-bottom: auto;
+  border: 1px solid #222222;
+  padding: 5px;
+  text-align: center
+
+}
+.commonstyles img[alt] {
+  float: right;
+}
