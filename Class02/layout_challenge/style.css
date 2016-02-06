@@ -1,0 +1,42 @@
+.pageHeader {
+		width:100%;
+		float: left;
+		background: red;
+}
+
+.main {
+	width: 60%;
+	float: left;
+	clear: both;
+	background: yellow;
+
+}
+
+.sideBarRight {
+	width:30%;
+	float: left;
+	background: green;
+
+}
+
+.sideBarLeft {
+	width:70%;
+	float: left;
+	background: green;
+
+}
+
+.placeholder {
+	margin: 10px;
+	height: 200px;
+	border: 1px solid black;
+	background: rgba(255,255,255,0.7);
+}
+
+.pageFooter {
+		width:100%;
+		float: left;
+		background: blue;
+		padding: 20px;
+}
+

@@ -1,0 +1,86 @@
+.pageHeader {
+		width:100%;
+		float: left;
+		background: gray;
+}
+
+.main {
+	width: 60%;
+	float: left;
+	background: gray;
+
+
+}
+
+.sideBarRight{
+	width:20%;
+	float: right;
+	background: gray;
+
+
+}
+
+.sideBarLeft{
+	width:20%;
+	float: left;
+	background: gray;
+
+}
+
+.pageHeader .box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 100px;
+	border: 2px solid black;
+	background: rgba(255,255,255,.7);
+	padding: 0 5 5 5px;
+}
+
+.sideBarLeft .box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 300px;
+	border: 2px solid black;
+	background: rgba(255,255,255,.7);
+}
+
+.sideBarRight .box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 300px;
+	border: 2px solid black;
+	background: rgba(255,255,255,.7);
+}
+
+.main .box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 300px;
+	border: 2px solid black;
+	background: rgba(255,255,255,.7);
+}
+
+.pageFooter .box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 100px;
+	border: 2px solid black;
+	background: rgba(255,255,255,.7);
+}
+
+
+.pageFooter {
+		width:100%;
+		float: left;
+		background: gray;
+
