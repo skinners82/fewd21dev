@@ -29,23 +29,26 @@ a {
 
 
 /* Center the container */
+
 .container {
-  width: 100%;
+  width: 960px;
   margin: 0 auto;
 }
 
-.logo{
+#logo{
   font-size: 24px;
   font-weight: 800;
 }
 
 .pageIntro {
-  height: 600px;
+  height: 500px;
+  width: 100%;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
-  padding-top: 32px;
+  background-size: 100%;
+  margin: 0 auto;
 }
 
-.pageIntro .logo {
+.pageIntro #logo {
   color:#fff;
 }
 
@@ -85,6 +88,7 @@ a {
 .benefits {
   font-size: 20px;
   font-weight: 300;
+  padding: 100px 0 80px;
 
 }
 
@@ -93,27 +97,31 @@ a {
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 40px;
+  
 }
 
 .benefits p, .benefits ul {
   width: 600px;
+ 
 }
 
 .benefits p {
   font-size: 13px;
   font-weight: 200;
+ 
 }
 .benefits ul {
   list-style: circle;
   margin: 30px 0 0 80px;
   font-size: 13px;
   font-weight: 200;
-   padding-bottom: 50px;
+  
 
 }
 
 .testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  background-size: 100%;
   padding: 70px 0 70px;
   color: #fff;
 }
@@ -148,7 +156,7 @@ a {
   text-align: center;
 }
 
-.pageFooter .logo {
+.pageFooter #logo {
   font-size: 24px;
   font-weight: 800;
   color: #f9e42e;
