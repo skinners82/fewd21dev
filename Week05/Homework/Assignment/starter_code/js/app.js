@@ -44,6 +44,12 @@ jQuery(document).ready(function() {
 			jQuery ('body').attr('class', 'sydney');
 		}
 
+// If the user inputs "San Diego" or "SD" make the background of the page sd.jpg.
+else if (cityinput == 'san diego' || cityinput == 'sd') {
+			jQuery ('body').attr('class', 'sd');
+		}
+
+
 	}); //end click-submit function
 
 }); //end document ready function
