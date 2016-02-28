@@ -13,13 +13,11 @@ jQuery(document).ready(function() {
 		event.preventDefault();
 
 
-//Create a variable called cityinput and get the value of the #city-type
+//Create a variable called cityinput and get the value of the #city-type; Also, correct for capitalization and spaces above
 
 		var cityinput = jQuery('#city-type').val();
         jQuery('#city-type').val('');
     cityinput = cityinput.toLowerCase().trim();
-
-//Also, correct for capitalization and spaces above
 
 // If the user inputs "New York," "New York City", or "nyc", change the background image to nyc.jpg
 
