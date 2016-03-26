@@ -1,0 +1,21 @@
+body {
+	color:black;
+	font-size: 18px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  	font-weight: 300;
+  	background: #fff url('../images/waterfall.jpg');
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto 1em auto;
+	border: 1px solid blue;
+}
+h1 {
+	margin: auto 350 auto 0;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
