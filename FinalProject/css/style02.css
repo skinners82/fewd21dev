@@ -32,7 +32,7 @@ a:hover {
     color: #eb4847;
 }
 #cover-image {
-    background: #fff url('../images/waterfall.jpg') top left;
+    background: #fff url('images/baseball.jpeg') top left;
     background-attachment: scroll;
     background-position: center center;
     background-repeat: none;

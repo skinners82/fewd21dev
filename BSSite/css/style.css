@@ -1,0 +1,179 @@
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+
+    height:100%;
+  	color: #000;
+  	text-align: center;
+  	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+#page1 {
+	background-image: url('../images/baseball.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+  
+}
+
+img {
+	background-size: cover;
+	position: fixed;
+	z-index: 1;
+	-webkit-background-size: cover !important;
+}
+
+.center-block {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  background-color: ##e2fee2;
+  border: 1px solid #ccff99;
+}
+
+.lead {
+	font-weight: 200;
+	text-shadow: none;
+}
+
+h1 {
+	font-size: 2.2em;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-left: 12px;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  position: relative;
+  z-index: 2;  
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 20px;
+}
+
+.cover {
+  padding: 0 20px;
+  padding-top: 120px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.cover .lead {
+	font-size: 1.2em;
+	padding-top: 5px;
+}
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-brand {
+	font-family: 'open sans', 'Noto Serif', sans-serif;;
+	font-weight: 400;
+	max-width: 100%;
+	float: left;
+	font-size: 1.60em;
+	padding-left: 45px;
+	padding-top: 30px;
+	color: #98FB98;
+	/*#ccff99 is the original color*/
+}
+
+h1 span {
+	color: #98FB98;
+	margin-bottom: 20px;
+}
+
+nav li { 
+	display: inline-block;
+
+}
+
+nav {
+	width: 40%;
+	margin: 0;
+	padding: 40px 0 0 120px;
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 20px;
+}
+
+nav a:hover {
+	color: #ccff99;
+}
+
+
+.body-wrapper {
+	max-width: 100%;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cover-heading {
+  padding: 0 20px;
+}
+.cover-heading .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
