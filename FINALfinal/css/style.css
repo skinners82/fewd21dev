@@ -1,7 +1,8 @@
 html,
 body {
-  height: 100%;
+  max-height: 100%;
   background-color: #333;
+
 }
 body {
 	background-image: url('../images/baseball.jpeg');
@@ -12,8 +13,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     height:100vh;
-  
-    height:100%;
+    
+    /*height:100%;*/
   	color: #000;
   	text-align: center;
   
@@ -49,6 +50,8 @@ a:hover {
 .lead {
 	font-weight: 200;
 	text-shadow: none;
+  padding-bottom: 30px;
+  
 }
 
 h1 {
@@ -128,6 +131,76 @@ h1 span {
 }
 
 
+
+
+
+nav, .navbar-fixed-top, .navbar {
+    max-width: 100%;
+    margin: 0;
+    width: 100vw;
+    width: 100%;
+    /* padding: 40px 0 0 120px; */
+    /* float: right; */
+}
+
+
+/*.navbar-default {
+    opacity: 0.8;
+    filter: alpha(opacity=40);  
+    max-width: 100%;
+    width: 100vh;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  /*top: 40px;*/
+  /*left: 940px;
+  z-index: 1030;
+}*/
+
+nav a, .navbar-fixed-top, .navbar {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 20px;
+}
+
+nav a:hover {
+  color: #ccff99;
+  font-weight: bold;
+}
+
+.navbar-fixed-top a:hover {
+  color: #ccff99;
+}
+
+.navbar-link a:hover{
+  color: #ccff99;
+}
+
+
+.body-wrapper {
+  max-width: 100%;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cover-heading {
+  padding: 0 20px;
+}
+.cover-heading .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+
+
+
 nav li, .navbar-fixed-top, .navbar { 
 	display: inline-block; 
 
@@ -144,8 +217,8 @@ nav, .navbar-fixed-top, .navbar {
 
 nav a, .navbar-fixed-top, .navbar {
 	text-decoration: none;
-	color: #fff;
-	padding: 20px 20px;
+	color: #000;
+	padding: 20px 0 0 200px;
 }
 
 nav a:hover {
@@ -171,23 +244,6 @@ nav a:hover {
 }
 
 
-
-.body-wrapper {
-	max-width: 100%;
-}
-
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.cover-heading {
-  padding: 0 20px;
-}
-.cover-heading .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
 
 
 
@@ -277,6 +333,7 @@ nav a:hover {
       -o-background-size: cover;
       height:100vh;
       height: 100%;
+      min-height: 100%;
 }
 
     /* -------------------------------- 
@@ -405,6 +462,188 @@ textarea {
 }
 
 
+
+
+html {
+  height: 2000px;
+}
+.mobile {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.mobile div {
+  display: none;
+}
+.mobile button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 0;
+  text-indent: 200%;
+  overflow: hidden;
+  background: rgba(255,255,255,0.8) url("http://i.imgur.com/vKRaKDX.png") center no-repeat;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-size: 80%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.mobile button.expanded {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  background-color: transparent;
+  border: 0;
+}
+.mobile a {
+  display: block;
+}
+a {
+  background: #eee;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+a:hover,
+a:active,
+a:focus {
+  background: #e7e7e7;
+}
+.desktop {
+  display: block;
+  overflow: hidden;
+}
+.desktop a {
+  width: 25%;
+  float: left;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.desktop a:last-child {
+  border-right: none;
+}
+article {
+  padding: 0 30px 15px;
+}
+@media (max-width: 800px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+./*mobile {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+ /*div {
+    display: none;
+  }*/
+
+  /*button {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border: 0;
+    text-indent: 200%;
+    overflow: hidden;
+    background: rgba(255,255,255,.3) url(http://i.imgur.com/vKRaKDX.png) center no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-size: 80%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    transition: all 400ms ease;
+    &.expanded
+      transform: rotate(90deg);
+     /* background-color: transparent;*/
+    /*  border: 0;
+    }
+  a {
+    display: block;
+  }*/
+
+/*a {
+  background: #eee;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  &:hover, &:active, &:focus
+    background: darken(#eee, 3%);
+  }*/
+
+/*.desktop {
+  display: block;
+  overflow: hidden;
+  a 
+    width: 25%;
+    float: left;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    &:last-child;
+    border-right: none;
+    }
+
+article {
+  padding: 0 30px 15px;
+}
+
+
+@media (max-width: 800px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -413,3 +652,112 @@ textarea {
     float: right;
   }
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .nav {
+    width:100%;
+  }
+  .navbar-link {
+    width:100%;
+    float:none;
+  }
+}
+
+ /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 400px) {
+  nav a, .navbar-fixed-top, .navbar {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 0 0 200px;
+}
+/* Styles */
+}
+
+@media only screen and (min-device-width : 410px) and (max-device-width : 435px) {
+ nav a, .navbar-fixed-top, .navbar {
+
+  padding: 20px 0 0 340px;
+  margin-left: 500px;
+}
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 410px) and (max-device-width : 435px) {
+ nav a, .navbar-fixed-top, .navbar {
+
+  padding: 20px 0 0 340px;
+  margin-left: 500px;
+}
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+
+
+
+
+
+
+
+
+
+

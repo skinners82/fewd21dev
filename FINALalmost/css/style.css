@@ -1,0 +1,415 @@
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+	background-image: url('../images/baseball.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:100vh;
+  
+    height:100%;
+  	color: #000;
+  	text-align: center;
+  
+}
+
+img {
+	background-size: cover;
+	position: fixed;
+	z-index: 1;
+	-webkit-background-size: cover !important;
+}
+
+.center-block {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  background-color: ##e2fee2;
+  border: 1px solid #ccff99;
+}
+
+.lead {
+	font-weight: 200;
+	text-shadow: none;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-left: 12px;
+  color: #2F190E;
+  text-shadow: 0 1px 4px rgba(0,0,0,1.5);
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100vh; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  position: relative;
+  z-index: 2;  
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 20px;
+}
+
+.cover {
+  padding: 0 20px;
+  padding-top: 120px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.cover .lead {
+	font-size: 2.2em;
+	padding-top: 5px;
+  font-weight: bold;
+}
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-brand {
+	font-family: 'open sans', 'Noto Serif', sans-serif;;
+	font-weight: 400;
+	max-width: 100%;
+	float: left;
+	font-size: 1.60em;
+	padding-left: 45px;
+	padding-top: 30px;
+	color: #98FB98;
+	/*#ccff99 is the original color*/
+}
+
+h1 span {
+  color: #CE7C66;
+	/*color: #98FB98;*/
+	margin-bottom: 20px;
+  text-shadow: 0 1px 4px rgba(0,0,0,1);
+}
+
+
+nav li, .navbar-fixed-top, .navbar { 
+	display: inline-block; 
+
+}
+
+nav, .navbar-fixed-top, .navbar {
+	width: 40%;
+	margin: 0;
+	padding: 40px 0 0 120px;
+	float: right;
+} 
+
+
+
+nav a, .navbar-fixed-top, .navbar {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 20px;
+}
+
+nav a:hover {
+	color: #ccff99;
+}
+
+.navbar-fixed-top a:hover {
+  color: #ccff99;
+}
+
+.navbar-link a:hover{
+  color: #ccff99;
+}
+
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  top: 40px;
+  left: 940px;
+  z-index: 1030;
+}
+
+
+
+.body-wrapper {
+	max-width: 100%;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cover-heading {
+  padding: 0 20px;
+}
+.cover-heading .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+
+#about {
+	background-image: url('../images/field.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:100vh;
+    min-height: 100%;
+}
+
+.container-fluid {
+  height:100vh;
+}
+
+.about-nlb span {
+	color: #98FB98;
+}
+
+.about-nlb {
+	color: #fff;  
+	padding-right: 15px;
+}
+
+.philosophy-content {
+	color: #fff;
+} 
+
+.title-phil {
+	color: #fff;
+	font-size: 1.3em;
+}
+
+.jumbotron {
+  background-color:rgba(255,255,255,0.3);
+  color: #000;  
+}
+
+.jumbotron h1 {
+    
+    font-weight: 400;
+}
+
+#aboutSection p {
+  font-size: 1.2em;
+}
+
+
+
+   .container-about {
+      position: relative;
+      margin: 0 250px;
+    }
+    .content {
+      position: relative;
+      padding: 35px;
+      height: 100%;
+      text-align: center;
+      font-size: 1.1em;
+      color: #000;
+      z-index: 5;
+    }
+    .background-to-content {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      z-index: 1;
+      /* These three lines are for transparency in all browsers. */
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50);
+      opacity: .5;
+    }
+
+    #contact {
+      background-image: url('../images/playball.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      height:100vh;
+      height: 100%;
+}
+
+    /* -------------------------------- 
+
+Form
+
+-------------------------------- */
+
+fieldset {
+  border: 0;
+  margin: 24px 0;
+}
+
+legend {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+form div {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  color: #94aab0;
+  margin-bottom: 10px;
+}
+
+input,
+textarea,
+select,
+label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #2b3e51;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+legend {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  padding: 12px;
+  border: 1px solid #cfd9db;
+  background-color: #ffffff;
+  border-radius: .25em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #2c97de;
+}
+
+textarea {
+  min-height: 200px;
+  resize: vertical;
+  overflow: auto;
+}
+
+input[type="submit"] {
+  border: none;
+  background: #2c97de;
+  border-radius: .25em;
+  padding: 16px 50px;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #42a2e1;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+  background: #2b3e51;
+}
+
+input[type="submit"]:active {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* -------------------------------- 
+
+Custom icons
+
+-------------------------------- */
+
+input,
+select,
+textarea {
+  padding-left: 54px !important;
+}
+
+.cd-form .user {
+  background: url("img/cd-icon-user.svg") no-repeat 16px center, url("img/cd-required.svg") no-repeat top right;
+}
+.company {
+  background: url("img/cd-icon-company.svg") no-repeat 16px center;
+}
+.company {
+  background: url("img/cd-icon-company.svg") no-repeat 16px center, url("img/cd-required.svg") no-repeat top right;
+}
+.email {
+  background: url("img/cd-icon-email.svg") no-repeat 16px center, url("img/cd-required.svg") no-repeat top right;
+}
+.message {
+  background: url("img/cd-icon-message.svg") no-repeat 16px 16px;
+}
+
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
