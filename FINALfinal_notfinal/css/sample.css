@@ -1,0 +1,49 @@
+nav, .navbar-fixed-top, .navbar {
+    max-width: 100%;
+    margin: 0;
+    width: 100vw;
+    width: 100%;
+    /* padding: 40px 0 0 120px; */
+    /* float: right; */
+}
+
+
+.navbar-default {
+    opacity: 0.8;
+    filter: alpha(opacity=40);  
+    max-width: 100%;
+    width: 100vh;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  top: 40px;
+  left: 940px;
+  z-index: 1030;
+}
+
+nav a, .navbar-fixed-top, .navbar {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 20px;
+}
+
+nav a:hover {
+	color: #ccff99;
+	font-weight: bold;
+}
+
+.navbar-fixed-top a:hover {
+  color: #ccff99;
+}
+
+.navbar-link a:hover{
+  color: #ccff99;
+}
+
+
+
+
+
